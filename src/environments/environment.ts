@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  wsUrl: 'http://107.23.99.53:3000'
+  wsUrl: 'http://localhost:3000',
 };
 
 /*
