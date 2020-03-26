@@ -5,6 +5,13 @@
         "logLevel": "debug"
     },
     "/api/v2": {
+        "target": "http://cliente-angular.ddns.net/",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+
+    "/api/v3": {
         "target": "http://osunainstancia.ddns.net",
         "secure": false,
         "logLevel": "debug",
